@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AWSProjectType>Lambda</AWSProjectType>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="2.1.0" />
+    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="7.2.0" />
+    <PackageReference Include="LiteDB" Version="5.0.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="system.net.http" Version="4.3.0" />
+    <PackageReference Include="WinSCPHelper" Version="1.0.13" />
+    
+    
+  </ItemGroup>
+</Project>
